@@ -26,4 +26,4 @@ jobs:
 
     - name: Run MLflow Project (Otomatisasi Retraining)
       run: |
-        mlflow run . --entry-point main --no-conda
+        mlflow run . --entry-point main --env-manager local
