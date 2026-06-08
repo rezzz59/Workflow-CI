@@ -26,4 +26,5 @@ jobs:
 
     - name: Run MLflow Project (Otomatisasi Retraining)
       run: |
-        mlflow run . --entry-point main --env-manager local
+        run: |
+          mlflow run . --entry-point main --experiment-name "California_Housing_CI" --env-manager local
